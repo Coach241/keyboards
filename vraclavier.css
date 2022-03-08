@@ -1,0 +1,104 @@
+body
+{
+    background-color:rgb(114, 136, 129);
+}
+.container
+{
+    margin: 120px 0px 0px 120px;
+    border: solid 2px white;
+    padding: 5px;
+    border-radius: 17px;
+    width: 1100px;
+}   
+.ligne
+{
+    width: 95px;
+    height: 60px;
+}
+.ligne1, .ligne2, .ligne3, .ligne3, .ligne4, .ligne5
+{
+    margin: 10px 0px 0px 0px;;
+}
+button
+{
+    color:blanchedalmond;
+    height: 55px;
+    width: 67px;
+    border: none;
+    background-color:rgb(15, 15, 14);
+    box-shadow: 0px 3px 3px #fff;;
+    font-size: 15px;
+    margin-left: 5px;
+    outline: none;
+    border-radius: 13px;
+    font-weight:300;
+    text-shadow: 0 -1px 2px black;
+    font-family: sans-serif;
+}
+button:active
+{
+    box-shadow:-1px -3px 2px whitesmoke;
+}
+.suppr
+{
+    width: 100px;
+    border-radius: 13px;
+}
+.tab
+{
+    width: 80px;
+    border: 13px;
+}
+.caps
+{
+    width: 100px;
+    border:13px;
+}
+.shift
+{
+    width: 78px;
+    border:13px;
+}
+.entree
+{
+    width: 90px;
+    border: 13px;
+}
+.espace
+{
+    width: 450px;
+    border:13px;
+}
+.ctrl
+{
+    width: 74px;
+    border:13px;
+}
+.plusieurs
+{
+    font-size: 11px;
+    width: 69px;
+}
+.f
+{
+    width: 55px;
+}
+.win
+{
+    width: 69px;
+}
+.alt
+{
+    width: 69px;
+}
+.dplusieurs
+{
+    width: 55px;
+}
+h1
+{
+    color:white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 0px 3px 9px rgb(12, 16, 51);
+}
