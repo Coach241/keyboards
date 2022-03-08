@@ -3,6 +3,8 @@
     border: 1px solid black;
     background-color: black;
     color: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }
 button {
     width: 50px;
