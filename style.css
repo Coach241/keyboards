@@ -1,0 +1,111 @@
+body{
+    background-color: #2d4057;
+}
+*{
+    margin: 0;
+    font-family: arial;
+}
+.titre{
+    margin-left: 7.5em;
+    padding: 1em;
+    color: white;
+}
+/*Container du clavier*/
+.clavierContainer{
+    background-color: rgb(218, 218, 218);
+    padding: 5px;
+    width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+
+}
+/*Toutes les touches du clavier*/
+.clavierContainer .item{
+    border: 1px solid rgb(163, 163, 163);
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 4px;
+    
+    
+}
+.clavierContainer .item:hover{
+    background-color: rgb(172, 172, 172);
+}
+/*La première ligne du clavier*/
+.firstLine{
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-gap: 4px;
+
+}
+/*La deuxième ligne du clavier*/
+.secondLine{
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-gap: 4px;
+}
+/*La troisième ligne du clavier*/
+.thirdLine{
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-gap: 4px;
+}
+.thirdLine .capsLock{
+    font-size: 6px;
+}
+/*Bouton entrer*/
+.thirdLine .enter{
+    grid-column: 2 span;
+}
+/*La quatrième ligne du clavier*/
+.fourthLine{
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-gap: 4px;
+}
+.fourthLine .shift{
+    font-size: 11px;
+    display: inline-block;
+    grid-column: 2 span;
+    padding-left: 1em;
+    padding-top: 1.4em;
+   
+}
+.fourthLine .shiftEnd{
+    font-size: 11px;
+    display: inline-block;
+    grid-column: 2 span;
+    text-align: center;
+    padding-top: 1em;
+   
+}
+
+/*La cinquième ligne du clavier*/
+.fithLine{
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-gap: 4px;
+}
+.fithLine .space{
+    grid-column: 7 span;
+    text-align: center;
+    padding-top: 0.5em;
+}
+.fithLine .control{
+    padding-top: 0.7em;
+    font-weight: 100;
+    font-size: 12px;
+    font-style: italic;
+   
+}
+.fithLine .alt{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 0.8em;
+    font-style: italic;
+    font-weight: 100;
+}
