@@ -1,0 +1,9 @@
+.main {
+    width: 850px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+button {
+    width: 50px;
+}
