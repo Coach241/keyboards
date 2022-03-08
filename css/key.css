@@ -1,3 +1,7 @@
+::selection {
+    cursor: none;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +10,7 @@
 
 body {
     background-color: rgb(236, 236, 236);
+
 
 }
 
@@ -22,24 +27,31 @@ main {
 }
 
 button {
-    border: .5px solid;
+
     padding-right: 12px;
     width: 80px;
     height: 60px;
     font-weight: 900;
     border-radius: 5px;
     width: 10%;
-
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.527);
+    
 }
 
 button:hover {
     background-color: rgba(165, 42, 42, 0.185);
+    box-shadow: inset 3px 3px 0px rgba(15, 15, 15, 0.274);
     color: white;
+
+
 
 }
 
 button:focus {
     background-color: rgba(255, 52, 52, 0.185);
+    box-shadow: inset 3px 3px 0px rgba(15, 15, 15, 0.274);
+    outline: none;
+
 
 }
 
@@ -73,8 +85,8 @@ button:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2px;
-    margin-bottom: 5px;
+    gap: 7px;
+    margin-bottom: 7px;
 
 }
 
@@ -104,7 +116,7 @@ button:focus {
     display: flex;
     flex-direction: column;
     height: 100%;
-    gap: 2px;
+    gap: 5px;
 }
 
 .direct .haut button {
