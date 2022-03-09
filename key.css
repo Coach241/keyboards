@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     background-color: black;
-    width: 100%;
+    /* width: 100%; */
 }
 
 button {
@@ -42,9 +42,14 @@ body {
 .trois button {
     margin-right: 2px;
 }
+.wrapper {
+    display: flex;
+}
+
 .twoThree {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
 }
 .echap {
     width: 85px;
@@ -60,9 +65,8 @@ body {
 }
 .enter {
     width: 150px;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    /* height: 100px; */
+    height: 130px;
+    margin-left: 0;
 }
 .tab {
     width: 90px;
