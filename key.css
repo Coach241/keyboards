@@ -3,8 +3,8 @@
     margin: 120px 100px;
     border: 1px solid black;
     padding: 40px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: repeat(5 (1fr));
     align-items: center;
     justify-content: center;
 }
@@ -36,24 +36,40 @@ body {
 .cinq {
     margin-top: 8px;
 }
+.trois button {
+    margin-right: 2px;
+}
+.twoThree {
+    display: flex;
+    flex-direction: column;
+}
 .echap {
     width: 85px;
 }
 .backspace {
-    width: 120px;
+    width: 130px;
 }
 .shift {
-    width: 150px;
+    width: 145px;
 }
 .space {
-    width: 300px;
+    width: 500px;
 }
 .enter {
     width: 140px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    /* height: 100px; */
 }
 .tab {
     width: 90px;
 }
 .windows {
     width: 95px;
+}
+.plus-egal {
+    display: column;
+}
+.hashtag {
+    margin-right: 15px;
 }
