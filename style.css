@@ -7,7 +7,7 @@ body{
 }
 .titre{
     margin-left: 7.5em;
-    padding: 1em;
+    padding: 0.8em 1em;
     color: white;
 }
 /*Container du clavier*/
@@ -32,6 +32,7 @@ body{
     
     
 }
+/*Effet lorsqu'on survole les touches*/
 .clavierContainer .item:hover{
     background-color: rgb(172, 172, 172);
 }
@@ -47,6 +48,10 @@ body{
     display: grid;
     grid-template-columns: repeat(14, 1fr);
     grid-gap: 4px;
+}
+.secondLine .tab{
+    font-size: 12px;
+    display: inline-block;
 }
 /*La troisième ligne du clavier*/
 .thirdLine{
@@ -108,4 +113,16 @@ body{
     padding-top: 0.8em;
     font-style: italic;
     font-weight: 100;
+}
+/*Image de clavier*/
+.imageClavier{
+    margin: auto;
+    width: 50.8em;
+    padding-top: 2em;
+    
+}
+.imageClavier img{
+    width: 100%;
+    max-width: 1000px;
+    
 }

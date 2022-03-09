@@ -1,2 +1,5 @@
 # keyboards
-Travail pratique de programmation html+css
+Nom : NZIENGUI - AKOUMBOU
+Prénoms : Glen Orphée
+Clavier : Qwerty
+Pays : Etats Unis
