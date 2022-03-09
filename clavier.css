@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(214,214,214);
+    text-align: center;
+   }
+
+.container {
+    background-color: #474343;
+    margin: 160px 0 0 200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+   }
+
+.row{
+    width: 100%;
+    height: 60px;
+    
+}
+.one, .two, .three, .four, .five{
+    margin: 10px 0 0 0;
+}
+button{
+    color: whitesmoke;
+    width: 55px;
+    height: 60px;
+    border: none;
+    background: black ;
+    box-shadow: 5px 5px 10px #474343,-5px -5px 10px #fff;
+    font-size: 20px;
+    margin-left: 6px;
+    outline: none;
+    font-family: arial, hevetica, sans-serif;
+    
+}
+button active{
+    box-shadow: 1px 1px 2px #fff8f8, -1px -1px 2x #474343;
+    text-align: center;
+}
+.back{
+    width: 300px;
+    
+    
+}
+.shift{
+    width: 85px;
+    
+}
+.slace{
+    width: 85px;
+    }
+.tableur{
+    width: 90px;
+
+}
+}
+.enter{
+    width: 60px;
+    
+    }
+.verr{
+    width: 170px;
+    
+}
+.git{
+    width: 85px;
+}
