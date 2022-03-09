@@ -133,3 +133,11 @@ button
    background-color: white;
    color: chartreuse;
 }
+img
+{
+   width: 500px;
+   height: 250px;
+   position: relative;
+   left: 425px;
+   bottom: 0px;
+}
