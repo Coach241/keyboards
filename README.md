@@ -1,2 +1,3 @@
-# keyboards
-Travail pratique de programmation html+css
+Clavier qwerty en HTML/CSS
+Etats-Unis
+NDONG MEGNE Otis William
