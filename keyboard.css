@@ -1,0 +1,19 @@
+.container
+{
+background-color:aliceblue;
+}
+.item1
+{
+opacity:1;
+cursor: pointer;
+background-color: black;
+border: 1px solid:0ch;
+border-radius: 7px;
+margin: 0px;
+padding: 20;
+color: white;
+font-size: 15px;
+text-align: center;
+height: 40px;
+width: 150;
+}

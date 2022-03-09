@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\Live serveur"
+		},
+		{
+			"path": "..\\Projet clavier Git"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Live serveur"
+	}
+}
