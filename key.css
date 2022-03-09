@@ -7,7 +7,10 @@
     grid-template-rows: repeat(5 (1fr));
     align-items: center;
     justify-content: center;
+    background-color: black;
+    width: 100%;
 }
+
 button {
     border-radius: 20%;
     -webkit-border-radius: 20%;
@@ -39,10 +42,7 @@ body {
 .trois button {
     margin-right: 2px;
 }
-.twoThree {
-    display: flex;
-    flex-direction: column;
-}
+
 .echap {
     width: 85px;
 }
@@ -56,9 +56,8 @@ body {
     width: 500px;
 }
 .enter {
-    width: 140px;
-    grid-column-start: 1;
-    grid-column-end: 2;
+    width: 120px;
+
     /* height: 100px; */
 }
 .tab {
@@ -67,9 +66,7 @@ body {
 .windows {
     width: 95px;
 }
-.plus-egal {
-    display: column;
-}
+
 .hashtag {
     margin-right: 15px;
 }
