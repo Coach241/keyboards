@@ -1,4 +1,4 @@
 # keyboards
-Travail pratique de programmation html+css
+Ce fichier contient le code html/css représentant un clavier allemand 
 ---
 Copyright Ecole241@LBV
