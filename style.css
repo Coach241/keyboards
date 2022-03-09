@@ -91,7 +91,84 @@ img{
 }
 .end{
     position: absolute;
+    padding-right: 8px;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+}
+.num{
+    color: #858585;
+}
+.haut{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1px 0 0 3px;
+    font-size: 1.5rem;
+}
+.bare{
+    font-size: 10px;
+    font-weight: bold;
+}
+.bas{
+    position: absolute;
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.exp{
+    position: absolute;
+    font-size: 10px;
+    left: 11%;
+    top: 50%;
+}
+.tab{
+    position: absolute;
+    left: 10px;
+    top: 0;
+    height: 70%;
+    width: 40%;
+}
+.ver{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 70%;
+    width: 40%;
+}
+.maj{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50%;
+    width: 40%;
+}
+.select{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50%;
+    width: 40%;
+}
+.enter img{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    height: 50%;
+    width: 40%;
+}
+.sup{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: translate(5px,-50%);
+    height: 50%;
+    width: 40%;
+}
+.not{
+    color: #000;
 }
