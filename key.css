@@ -2,3 +2,134 @@ button
 {
    background-color: rgb(240, 233, 233); 
 }
+.ligne6
+{
+   
+
+}
+.direction
+{
+   display: inline-block;
+ 
+}
+body
+{
+   background-color:rgb(218, 213, 213);
+}
+button
+{
+   width: 50px;
+   height: 50px;
+   background-color: rgb(36, 34, 34);
+   color: chartreuse;
+   border: 1px gray solid;
+   border-radius: 5px;
+   margin-top: 5px;
+   box-shadow: 3px 2px 0 chartreuse
+
+}
+.top
+{
+   height: 26px;
+   position: relative;
+   top: 14px;
+   left: 4px;
+   background-color: white;
+  
+}
+.bottom
+{
+   height: 26px;
+   position: relative;
+   bottom: 14px;
+   right: 50px;
+   background-color: white;
+
+   
+}
+.space
+{
+   width: 250px;
+}
+.command
+{
+   width: 70px;
+   background-color: white;
+}
+.shiftG
+{
+   width: 70px;
+   background-color: white;
+}
+.shiftD
+{
+   width: 132px;
+   background-color: white;
+}
+.maj
+{
+   width: 100px;
+   background-color: white;
+}
+.tab
+{
+   width: 90px;
+   background-color: white;
+}
+.fragment
+{
+   width: 48px;
+   background-color: white;
+
+}
+.entrer
+{
+   width: 58px;
+   background-color: white;
+}
+.eff
+{
+   width:98px;
+   background-color: white;
+}
+.esc
+{
+   width: 90px;
+   background-color: white;
+   color: chartreuse;
+}
+.couleur 
+{
+   background-color: white;
+}
+.conteneur
+{
+   background-color: rgba(158, 149, 149, 0.877);
+   width: 840px;
+   height: 350px;
+   border: 1px gainsboro solid;
+   border-radius: 5px;
+   box-shadow: 3px 2px 0 gray;
+   margin: auto;
+   padding-left: 45px;
+
+}
+.left
+{
+   position: relative;
+   width: 55px;
+   background-color: white;
+}
+.right
+{
+   position: relative;
+   right: 45px;
+   width: 55px;
+   background-color: white;
+}
+.ver
+{
+   width: 59px;
+   background-color: white;
+   color: chartreuse;
+}
