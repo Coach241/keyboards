@@ -1,11 +1,59 @@
 .main {
-    width: 850px;
-    border: 1px solid black;
-    background-color: black;
     color: white;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    margin: 120px 100px;
+    border: 1px solid black;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 button {
-    width: 50px;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    margin-left: 3px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    box-shadow: 5px 5px 8px black;
+    font-size: 20px;
+}
+body {
+    background-color: darkgrey;
+    /* text-align: center; */
+}
+.ligne {
+    width: 100%;
+    height: 100%;
+}
+.un,
+.deux,
+.trois,
+.quatre,
+.cinq {
+    margin-top: 8px;
+}
+.echap {
+    width: 85px;
+}
+.backspace {
+    width: 120px;
+}
+.shift {
+    width: 150px;
+}
+.space {
+    width: 300px;
+}
+.enter {
+    width: 140px;
+}
+.tab {
+    width: 90px;
+}
+.windows {
+    width: 95px;
 }
