@@ -1,2 +1,3 @@
-# keyboards
-Travail pratique de programmation html+css
+# Clavier du ghana (AKAN)
+nom : mintsa
+prenom : jean-bosco

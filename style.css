@@ -10,19 +10,12 @@ body{
     justify-content: center;
     align-items: center;
 }
-h1{
-    font-size: 3rem;
-    margin: 4px 0;
-    color: #555;
-    font-family: monospace;
-}
 .clavier{
     width: 1009px;
     height: 280px;
-    background-color: #333;
+    background-color: #f5deb3;
     overflow: hidden;
     padding: 4px 0 0 0;
-    border-radius: 3px;
     flex-shrink: 0;
 }
 .ligne{
@@ -55,23 +48,50 @@ button{
     position: relative;
     border: none;
     background-color: none;
-    font-family: monospace;
-    background-color: #555;
-    color: #999;
-    border-radius: 3px;
-    box-shadow: 0 0 3px 4px #111;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.03rem;
+    background-color: #fff;
+    color: #000;
+    border: solid 2px #c8c6c2;
+    border-radius: 7px;
 }
 .enter::before{
     content: "";
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
+    width: calc(100% + 3px);
     height: 15px;
-    transform: translateY(-50%);
-    background-color: #555;
+    transform: translateY(-50%) translateX(-1.5px);
+    background-color: #c0c0c0;
+    border-left:  solid 2px #a5a5a5;
+    border-right:  solid 2px #a5a5a5;
 }
-button:hover{
-    box-shadow: none;
-    background-color: #444;
+.color_1{
+    background-color: #c0c0c0;
+    color: #7e7e7e;
+    border:  solid 2px #a5a5a5;
+}
+.color_2{
+    background-color: #dcdcdc;
+    color: #696969;
+}
+.color_3{
+    background-color: #d5eef8;
+}
+img{
+    margin: 10px 0;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.end{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
