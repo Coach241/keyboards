@@ -1,0 +1,131 @@
+.form{
+    padding-bottom: 16px;
+    padding-top:20px;
+}
+.form1{
+    padding-top: 4px;
+    padding-bottom: 16px;
+    width: 50px;
+    position:relative;
+    left:10px
+}
+.form2{
+    padding-top: 20px;
+    padding-bottom: 16px;
+    width: 50px; 
+    position:relative;
+    left:15px
+}
+
+.form3{
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+.deplacement1{
+    position:relative;
+    left:17px;
+}
+
+.form4{
+    width: 45px;
+}
+
+.form5{
+    padding-bottom: 10px;
+    padding-top:16px;
+    width: 50px;
+}
+
+.form7{
+    padding-top:15px;
+    padding-bottom: 10px;
+}
+
+.form8{
+    width:75px;
+    height: 50px;
+}
+
+.form10{
+    width:50px ;
+    height:50px ;
+}
+
+.form9{
+    height: 50px;
+    width: 100px;
+}
+
+.form6{
+    padding-top: 40px;
+    padding-bottom:40px ;
+    width: 50px;
+    height: 50px;
+    position:relative;
+    top:40px;
+    left:15px;
+}
+
+.form11{
+    width: 50px;
+    height: 50px;
+}
+.form12{
+    width: 100px;
+    height: 50px;
+}
+.form13{
+    width: 130px;
+    height: 50px;
+}
+img{
+    height: 15px;
+    width: 15px;
+}
+.formA{
+    position:relative;
+    top:10px;
+    width: 50px;
+    height: 50px;
+}
+
+.form14{
+    width: 318px;
+    height: 48px;
+    position:relative;
+    bottom:5px;
+}
+
+.form17{
+    width:95px;
+    height: 50px;
+}
+.form18{
+    padding-top: 40px;
+    padding-bottom:40px ;
+    width: 50px;
+    height: 50px;
+    position:relative;
+    bottom:35px;
+    left:8px;
+}
+.form19{
+    width: 315px;
+    height: 200px;
+    position:relative;
+    left:215px;
+}
+.form20{
+    width: 318px;
+    height: 48px;
+    position:relative;
+    top:123px;
+    right: 105px;
+}
+.img{
+    height: 230px;
+    width: 300px;
+    position:relative;
+    left:550px;
+    {
