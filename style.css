@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css?family=Duru+Sans);
+
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.6);
+  background: url("https://subtlepatterns.com/patterns/purty_wood.png") repeat;
+}
+
+figure.keyboard {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -377px;
+  margin-top: -150px;
+  width: 751px;
+  height: 305px;
+  font-family: "Duru Sans", Arial, sans-serif;
+  padding: 8px 10px;
+  border: 1px solid rgb(160, 160, 160);
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box;
+  box-shadow: 0px 1px 0px rgb(140, 140, 140), 0px 2px 0px rgb(130, 130, 130),
+    0px 3px 0px rgb(125, 125, 125), 0px 4px 0px rgb(150, 150, 150),
+    0px 5px 0px rgb(100, 100, 100), 0px -10px 40px rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
+  background: rgb(239, 239, 239);
+  background: url("https://d36xtkk24g8jdx.cloudfront.net/bluebar/f0c1312/images/shared/noise-2.png"),
+    -moz-linear-gradient(top, rgb(220, 220, 220) 0%, rgb(216, 216, 216) 95%, rgb(
+            226,
+            226,
+            226
+          )
+          100%);
+  background: url("https://d36xtkk24g8jdx.cloudfront.net/bluebar/f0c1312/images/shared/noise-2.png"),
+    -webkit-gradient(linear, left top, left bottom, color-stop(0%rgb
+            (220, 220, 220)), color-stop(95%, rgb(216, 216, 216)), color-stop(100%, rgb(226, 226, 226)));
+  background: url("https://d36xtkk24g8jdx.cloudfront.net/bluebar/f0c1312/images/shared/noise-2.png"),
+    -webkit-linear-gradient(top, rgb(220, 220, 220) 0%, rgb(216, 216, 216) 95%, rgb(
+            226,
+            226,
+            226
+          )
+          100%);
+  background: url("https://d36xtkk24g8jdx.cloudfront.net/bluebar/f0c1312/images/shared/noise-2.png"),
+    -o-linear-gradient(top, rgb(220, 220, 220) 0%, rgb(216, 216, 216) 95%, rgb(
+            226,
+            226,
+            226
+          )
+          100%);
+  background: url("https://d36xtkk24g8jdx.cloudfront.net/bluebar/f0c1312/images/shared/noise-2.png"),
+    -ms-linear-gradient(top, rgb(220, 220, 220) 0%, rgb(216, 216, 216) 95%, rgb(
+            226,
+            226,
+            226
+          )
+          100%);
+  background: url("https://d36xtkk24g8jdx.cloudfront.net/bluebar/f0c1312/images/shared/noise-2.png"),
+    linear-gradient(
+      to bottom,
+      rgb(220, 220, 220) 0%,
+      rgb(216, 216, 216) 95%,
+      rgb(226, 226, 226) 100%
+    );
+}
+
+figure.keyboard .key {
+  width: 40px;
+  height: 40px;
+  display: block;
+  float: left;
+  margin: 5px;
+  margin-bottom: 6px;
+  color: rgb(80, 80, 80);
+  box-shadow: 0px 1px 0px rgb(250, 250, 250), 0px 2px 0px rgb(250, 250, 250),
+    0px 3px 0px rgb(250, 250, 250), 0px 4px 0px 1px rgb(130, 130, 130),
+    0px 4px 0px 2px rgb(70, 70, 70);
+  background: rgb(249, 249, 249);
+  background: -moz-linear-gradient(
+    top,
+    rgb(249, 249, 249) 0%,
+    rgb(239, 239, 239) 95%,
+    rgb(226, 226, 226) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, rgb(249, 249, 249)),
+    color-stop(95%, rgb(239, 239, 239)),
+    color-stop(100%, rgb(226, 226, 226))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgb(249, 249, 249) 0%,
+    rgb(239, 239, 239) 95%,
+    rgb(226, 226, 226) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgb(249, 249, 249) 0%,
+    rgb(239, 239, 239) 95%,
+    rgb(226, 226, 226) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgb(249, 249, 249) 0%,
+    rgb(239, 239, 239) 95%,
+    rgb(226, 226, 226) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgb(249, 249, 249) 0%,
+    rgb(239, 239, 239) 95%,
+    rgb(226, 226, 226) 100%
+  );
+
+  border-radius: 3px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 13px;
+}
+
+/* SIZES */
+figure.keyboard .key-function {
+  padding-top: 4px;
+  width: 42px;
+  height: 20px;
+  font-size: 0.9em;
+}
+
+figure.keyboard .key-size-2 {
+  width: 68px;
+}
+
+figure.keyboard .key-size-3 {
+  width: 79px;
+}
+
+figure.keyboard .key-size-4 {
+  width: 104px;
+}
+
+figure.keyboard .key-size-5 {
+  width: 105px;
+}
+
+figure.keyboard .key-size-6 {
+  width: 58px;
+}
+
+figure.keyboard .key-size-7 {
+  width: 291px;
+}
+
+/* SPECIAL */
+figure.keyboard .key.key-caps-lock:before {
+  display: block;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: -10px;
+  content: " ";
+  width: 5px;
+  height: 5px;
+  background: rgb(50, 75, 60);
+  border-radius: 100%;
+}
+
+/* STYLES */
+figure.keyboard .key-small-type {
+  font-size: 0.5em;
+  line-height: 40px;
+  vertical-align: bottom;
+  text-align: left;
+  padding-left: 0.4em;
+}
+
+figure.keyboard .key-small-type.key-right {
+  text-align: right;
+  padding-right: 0.4em;
+}
+
+figure.keyboard .key-function.key-small-type {
+  font-size: 0.7em;
+  padding-right: 2px;
+  padding-top: 2px;
+  text-align: center;
+  line-height: 18px;
+}
+
+figure.keyboard .key-function.key-small-type.key-right {
+  font-size: 8px;
+  padding-top: 5px;
+  text-align: right;
+}
